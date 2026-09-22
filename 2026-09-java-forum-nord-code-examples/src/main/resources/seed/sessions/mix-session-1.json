@@ -1,0 +1,26 @@
+{
+  "id": {
+    "value": "91af9cac-ce3a-55a9-85bf-a051d84d4a0d"
+  },
+  "dj": {
+    "name": "DJ VORTEX"
+  },
+  "trackIds": [
+    {
+      "value": "e51eef59-24d4-582e-90b7-ee1ed220bb88"
+    },
+    {
+      "value": "c697ccbb-96a7-5d50-ac4b-f9c2640f22d1"
+    },
+    {
+      "value": "c89e5f74-0afc-58ef-8baa-d797d286ebe1"
+    },
+    {
+      "value": "be2d0bb9-b150-54dc-8079-5bf44cb6f4f5"
+    },
+    {
+      "value": "ad8f42a4-b453-544a-9d40-cc6ad61cf173"
+    }
+  ],
+  "crowdEvents": []
+}

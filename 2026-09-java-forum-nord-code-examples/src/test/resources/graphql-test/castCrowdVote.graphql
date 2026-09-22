@@ -1,0 +1,10 @@
+mutation CastCrowdVote($id: ID!, $slot: Int!) {
+  castCrowdVote(id: $id, slot: $slot) {
+    sessionId
+    totalVotes
+    choices {
+      slot
+      votes
+    }
+  }
+}

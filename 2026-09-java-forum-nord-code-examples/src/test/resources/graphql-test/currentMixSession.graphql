@@ -1,0 +1,11 @@
+
+query CurrentMixSession {
+  currentMixSession {
+    id
+    status
+    tracks {
+      song { title audioFile artist { name } }
+      energyLevel
+    }
+  }
+}

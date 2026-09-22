@@ -1,0 +1,8 @@
+projects:
+  dj-console-api:
+    schema: src/main/resources/graphql/**/*.graphqls
+    documents: src/test/resources/graphql-test/**/*.graphql
+    exclude:
+      - target/**
+      - "**/node_modules/**"
+

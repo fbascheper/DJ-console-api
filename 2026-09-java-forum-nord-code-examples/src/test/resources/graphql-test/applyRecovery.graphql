@@ -1,0 +1,11 @@
+mutation ApplyRecovery($id: ID!) {
+  applyRecovery(id: $id) {
+    id
+    status
+    tracks(last: 1) {
+      id
+      song { title audioFile }
+      energyLevel
+    }
+  }
+}

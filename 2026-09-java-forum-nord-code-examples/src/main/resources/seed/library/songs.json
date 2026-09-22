@@ -1,0 +1,535 @@
+[
+  {
+    "id": {
+      "value": "a56c3e47-fcb9-508e-a177-26fd36b78a4c"
+    },
+    "artist": {
+      "id": {
+        "value": "048091b3-0da4-5e72-947b-48008ae44b04"
+      },
+      "name": "ZEPH\u2206R"
+    },
+    "title": "Neon Requiem",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "5c33f8a0-eee5-517c-ab28-bd002ac9fb75"
+    },
+    "artist": {
+      "id": {
+        "value": "048091b3-0da4-5e72-947b-48008ae44b04"
+      },
+      "name": "ZEPH\u2206R"
+    },
+    "title": "Skyfall Protocol",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "f3e09c81-73e7-527b-93fa-a279d0924a92"
+    },
+    "artist": {
+      "id": {
+        "value": "048091b3-0da4-5e72-947b-48008ae44b04"
+      },
+      "name": "ZEPH\u2206R"
+    },
+    "title": "Eclipse Mode",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "8dfd5eab-077a-59ef-be9f-2ac06179d0a2"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Velvet Surge",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "92e64e9d-d92e-5c4d-bb09-1dcfca9ad70c"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Hyperdrive Kiss",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "8a0a3b32-c8c8-5797-94e1-825290f2ee76"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Midnight Override",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "ec5ac456-fc8f-570f-b195-dbadbf0daa7d"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Digital Fever",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "098f075c-a4e5-5020-a228-66990d9bf396"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Prism Heart",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "992cca3e-923b-52d9-ad11-db65652ca965"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Crystal Venom",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "0ed8635a-3e7e-523d-bbb4-d24940a70aa7"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Phantom Glow",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "d5afa617-b298-5205-a967-0c2366acf7b7"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Electric Shrine",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "e1ce84d4-1484-5543-bd7a-ad3dc13f5f60"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Pulse Echo",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "363bdb34-6f37-5435-88d1-11fab746e474"
+    },
+    "artist": {
+      "id": {
+        "value": "afe2d04d-0f56-5e56-81fa-e103a31e57b2"
+      },
+      "name": "N\u00d8VA BLISS"
+    },
+    "title": "Voltage Bloom",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "7a2ca204-099a-5f5e-aba3-a333254736b6"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Afterburn",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "115bd89c-89ba-51de-b1cc-e3025b2be151"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Skyline Drop",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "aeec6936-17fe-561c-988f-347151f9f125"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Rift Signal",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "fdda0b47-878d-557b-9903-da9f18bc084f"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Solar Drift",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "60b1327c-a48f-58c6-bff8-c8cecac18581"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Zero Gravity",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "2996748e-7d7c-5651-8e9a-6675bfc9c3b5"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Phase Shift",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "031c471a-9e48-50cd-bb3b-ccafd40217b8"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Thunder Sync",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "ecfab382-1af9-54a9-8683-d1bc9e336577"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Wave Collapse",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "e1fd7c96-b502-550a-8875-f31202df143d"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Gamma Rush",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "a01c0ac1-812c-5df8-aa1a-25fee3ee7c71"
+    },
+    "artist": {
+      "id": {
+        "value": "f9e30ed7-8ef4-5ff4-9ae6-d3d85546077a"
+      },
+      "name": "AXIOM"
+    },
+    "title": "Infinity Loop",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "3a794cdc-23bb-5db3-9008-9fd94a0ee88a"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Glitch Horizon",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "1ed6b8cc-62ca-5782-87d5-221ce30a30c9"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Bass Reactor",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "fe1e9c24-ca3d-5847-9748-4de0c217cb30"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Cyber Sunrise",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "55cfa0cd-c029-5efe-99ea-30daeeaf8e65"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Neon Cascade",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "1a6ca336-9a57-509f-b9b6-3bbb5b440fe9"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Drop Zone",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "2eeb0a1e-4d44-5f20-870e-9dc4c8e31db5"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Laser Bloom",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "29d25b7a-c8cb-511a-a808-b04fe4c0b939"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Strobe Kingdom",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "c5f54c96-e5a3-5053-b52b-9359da6b0a43"
+    },
+    "artist": {
+      "id": {
+        "value": "094544d6-859e-5679-a66e-c14d3fc72439"
+      },
+      "name": "LUX FADER"
+    },
+    "title": "Flux Circuit",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "d943469e-2fe6-5a52-9a5e-9b22380df424"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Chrome Thunder",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "89249260-1b45-507a-88f6-78ed43ec956e"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Overdrive Ritual",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "a1af70de-d065-507b-9d7f-23ea33a4fd6b"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Voltage Highway",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "f8e59c8e-aec7-5cab-95c6-2e1e1bbb947d"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Steel Mirage",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "e7101b46-eef0-5dbc-93d2-48f900d4a7b2"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Turbo Ghost",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "302786f7-0da0-516e-90bc-8be46cf035a2"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Burnout Echo",
+    "audioFile": "music/First phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "46c69a8f-e77d-54a5-b21b-c23a11188bff"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Warp Engine",
+    "audioFile": "music/Second phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "8528e1d3-4ee5-565f-bdb1-1614e848a20d"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Iron Pulse",
+    "audioFile": "music/Third phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "10692056-d359-5568-b5e6-afc2a3018477"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Nitro Fade",
+    "audioFile": "music/Last phase 1.mp3"
+  },
+  {
+    "id": {
+      "value": "b871cc37-78c6-5187-b3f7-f24b33f6704d"
+    },
+    "artist": {
+      "id": {
+        "value": "411e7140-fe88-51ea-9742-f9a613b1f766"
+      },
+      "name": "KR\u00d8M"
+    },
+    "title": "Phantom Gear",
+    "audioFile": "music/First phase 1.mp3"
+  }
+]

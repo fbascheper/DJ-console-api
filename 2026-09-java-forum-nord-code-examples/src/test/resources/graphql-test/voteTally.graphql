@@ -1,0 +1,11 @@
+query VoteTally($id: ID!) {
+  voteTally(id: $id) {
+    sessionId
+    totalVotes
+    choices {
+      slot
+      label
+      votes
+    }
+  }
+}

@@ -1,0 +1,74 @@
+spring:
+  application:
+    name: disc-jockey-console
+  threads:
+    virtual:
+      enabled: true   # JEP 444 — one virtual thread per HTTP request
+  graphql:
+    graphiql:
+      enabled: true
+    schema:
+      printer:
+        enabled: true
+    # HTTP + WebSocket (graphql-ws); browser Origin is the Angular dev host (or ngrok), not necessarily :8080
+    cors:
+      allowed-origins:
+        - "http://localhost:4200"
+        - "http://127.0.0.1:4200"
+      allowed-origin-patterns:
+        - "http://localhost:*"
+        - "http://127.0.0.1:*"
+        - "https://*.ngrok-free.app"
+        - "https://*.ngrok-free.dev"
+        - "https://*.ngrok.io"
+    websocket:
+      path: /graphql
+      allowed-origins:
+        - "http://localhost:4200"
+        - "http://127.0.0.1:4200"
+      allowed-origin-patterns:
+        - "http://localhost:*"
+        - "https://*.ngrok-free.app"
+        - "https://*.ngrok-free.dev"
+        - "https://*.ngrok.io"
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/djconsole
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      # Recreate schema on each app start; seed loaders repopulate JSONB tables.
+      # For Crowd cheer / DJ track selection, prefer restart over stale JSONB rows.
+      ddl-auto: create
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        type:
+          json_format_mapper: com.github.fbascheper.dj.console.bootstrap.hibernate.CustomJacksonJsonFormatMapper
+
+dj:
+  crowd-vote:
+    choices:
+      - slot: 0
+        label: Neon Requiem
+        track-name: Neon Requiem
+      - slot: 1
+        label: Velvet Surge
+        track-name: Velvet Surge
+      - slot: 2
+        label: Chrome Thunder
+        track-name: Chrome Thunder
+
+logging:
+  level:
+    graphql:
+      execution: DEBUG
+    com.github.fbascheper: INFO
+    com.github.fbascheper.dj.console.controller: DEBUG
+    com.github.fbascheper.dj.console.rest: DEBUG
+    org.hibernate.SQL: INFO
+    org.hibernate.orm.json: INFO

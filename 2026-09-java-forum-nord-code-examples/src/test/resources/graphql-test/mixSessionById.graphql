@@ -1,0 +1,11 @@
+
+query MixSessionById($id: ID!) {
+  mixSession(id: $id) {
+    id
+    status
+    tracks(last: 1) {
+      song { title audioFile }
+      energyLevel
+    }
+  }
+}

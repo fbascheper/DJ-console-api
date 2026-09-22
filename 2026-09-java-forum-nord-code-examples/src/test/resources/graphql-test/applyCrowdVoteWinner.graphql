@@ -1,0 +1,10 @@
+mutation ApplyCrowdVoteWinner($id: ID!) {
+  applyCrowdVoteWinner(id: $id) {
+    id
+    tracks(last: 1) {
+      song {
+        title
+      }
+    }
+  }
+}

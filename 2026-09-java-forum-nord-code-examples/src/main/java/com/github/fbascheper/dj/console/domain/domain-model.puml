@@ -1,0 +1,74 @@
+@startuml
+title DJ Console Domain Model (DDD)
+
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+
+package "domain.library" as lib {
+  class MusicLibrary <<AggregateRoot>>
+  class Artist
+  class Song
+  class Track
+  class CuePoint
+
+  MusicLibrary "1" *-- "1..n" Artist
+  MusicLibrary "1" *-- "1..n" Song
+  MusicLibrary "1" *-- "1..n" Track
+  Track "1" *-- "0..n" CuePoint
+  Song "n" --> "1" Artist : performed by
+  Track "n" --> "1" Song : playable version of
+}
+
+package "domain.session" as ses {
+  class MixSession <<AggregateRoot>>
+  class SessionTrack
+  enum EnergyLevel
+  class DiscJockey
+  class DanceEvent
+
+  MixSession "1" *-- "0..n" SessionTrack
+  MixSession "1" *-- "0..n" CrowdEvent
+  MixSession ..> EnergyLevel : derives / uses
+
+  DiscJockey "1" --> "0..n" DanceEvent : performs at
+  DanceEvent "1" *-- "1..n" MixSession : contains
+}
+
+package "domain.event" as evt {
+  abstract class CrowdEvent
+  class CrowdCheered
+  class CrowdEnergyDropped
+  class DancefloorEmptied
+  class DancefloorFilledUp
+  class RequestFromAudienceReceived
+
+  CrowdEvent <|-- CrowdCheered
+  CrowdEvent <|-- CrowdEnergyDropped
+  CrowdEvent <|-- DancefloorEmptied
+  CrowdEvent <|-- DancefloorFilledUp
+  CrowdEvent <|-- RequestFromAudienceReceived
+}
+
+SessionTrack ..> lib.Track : derived from
+DiscJockey ..> lib.Track : personal library subset
+
+note right of MusicLibrary
+Aggregate Root #1
+Global reference music catalog
+shared by all DJs.
+end note
+
+note right of MixSession
+Aggregate Root #2
+Behavior and invariants for a DJ set.
+Crowd events decide next tracks.
+end note
+
+note bottom
+Requested cardinalities:
+- DiscJockey -> DanceEvent: 0..n
+- DanceEvent -> MixSession: 1..n
+- MixSession uses subset of DJ library
+end note
+
+@enduml

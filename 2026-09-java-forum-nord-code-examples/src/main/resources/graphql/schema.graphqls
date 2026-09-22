@@ -1,0 +1,82 @@
+
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
+
+type Query {
+  # Convenience: the active/most-recent session (domain decides what "current" means)
+  currentMixSession: MixSession!
+  # Explicitly load a session by ID (UUID as ID scalar)
+  mixSession(id: ID!): MixSession!
+  # In-memory crowd vote tallies for QR voting demo (3 slots per session)
+  voteTally(id: ID!): VoteTally!
+}
+
+type Mutation {
+  # Apply a crowd-cheered event to a specific session
+  crowdCheered(id: ID!): MixSession!
+  crowdEnergyDropped(id: ID!): MixSession!
+  dancefloorEmptied(id: ID!): MixSession!
+  dancefloorFilledUp(id: ID!): MixSession!
+  requestFromAudience(id: ID!, trackName: String!): MixSession!
+  applyRecovery(id: ID!): MixSession!
+  # Crowd Vote Live (QR): increment vote for slot 0, 1, or 2
+  castCrowdVote(id: ID!, slot: Int!): VoteTally!
+  resetCrowdVote(id: ID!): VoteTally!
+  # Apply winning track via requestFromAudience using configured title for winning slot; resets tallies
+  applyCrowdVoteWinner(id: ID!): MixSession!
+}
+
+type Subscription {
+  """
+  Live stream of updates for a mix session (e.g. after crowdCheered).
+  First emits the current server state for the session, then each persisted change.
+  """
+  mixSessionUpdated(id: ID!): MixSession!
+  """ Live crowd vote counts for a session (initial snapshot, then each cast/reset). """
+  crowdVoteTallyUpdated(id: ID!): VoteTally!
+}
+
+type MixSession {
+  id: ID!
+  status: MixSessionStatus!
+  tracks(last: Int): [SessionTrack!]!
+}
+
+enum MixSessionStatus {
+  WARM_UP
+  PEAK
+  COOL_DOWN
+}
+
+type SessionTrack {
+  id: ID!
+  song: Song!
+  energyLevel: Int!
+}
+
+type Song {
+  id: ID!
+  title: String!
+  audioFile: String
+  artist: Artist!
+}
+
+type Artist {
+  id: ID!
+  name: String!
+}
+
+type VoteChoice {
+  slot: Int!
+  label: String!
+  votes: Int!
+}
+
+type VoteTally {
+  sessionId: ID!
+  choices: [VoteChoice!]!
+  totalVotes: Int!
+}

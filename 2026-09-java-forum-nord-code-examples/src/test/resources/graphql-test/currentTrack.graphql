@@ -1,0 +1,8 @@
+query CurrentTrack {
+  currentMixSession {
+    tracks(last: 1) {
+      energyLevel
+      song { title audioFile artist { name } }
+    }
+  }
+}
