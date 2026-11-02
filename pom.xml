@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.fbascheper</groupId>
-    <artifactId>java-forum-nord-presentations-parent</artifactId>
+    <artifactId>dj-console-parent</artifactId>
     <packaging>pom</packaging>
-    <version>2026.09-SNAPSHOT</version>
-    <name>java-forum-nord-presentations-parent</name>
+    <version>2026.11-SNAPSHOT</version>
+    <name>dj-console-parent</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <java.version>26</java.version>
+        <java.version>27</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.parameters>true</maven.compiler.parameters>
