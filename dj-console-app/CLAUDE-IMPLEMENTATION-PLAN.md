@@ -5,7 +5,7 @@
 # It records outstanding work only. Completed work is deleted, not archived —
 # the code and git history are the record of what was done.
 #
-# All changes are in: 2026-09-java-forum-nord-code-examples/
+# All changes are in: dj-console-app/
 # Source root shorthand: src/main/java/com/github/fbascheper/dj/console/
 # Test root shorthand:   src/test/java/com/github/fbascheper/dj/
 

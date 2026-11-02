@@ -62,7 +62,7 @@ repopulate the music library and mix sessions from `src/main/resources/seed/`.
 seeds run again:
 
 ```bash
-cd 2026-09-java-forum-nord-code-examples && mvn spring-boot:run
+cd dj-console-app && mvn spring-boot:run
 ```
 
 ## Crowd cheer / DJ `trackLibrary`

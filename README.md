@@ -24,19 +24,19 @@ application that first appeared in the Spring I/O session *From REST to GraphQL*
 | Path | Contents |
 |---|---|
 | [`pom.xml`](pom.xml) | Parent POM: Java 26, Spring Boot 4.1, dependency and plugin versions, `pitest` profile |
-| [`2026-09-java-forum-nord-code-examples/`](2026-09-java-forum-nord-code-examples/README.md) | The DJ Console API: overview, GraphQL examples, architecture |
+| [`dj-console-app/`](dj-console-app/README.md) | The DJ Console API: overview, GraphQL examples, architecture |
 
 For more detail, see the READMEs in the module:
 
-- [Module README](2026-09-java-forum-nord-code-examples/README.md): what the demo shows, the GraphQL endpoint, example queries
-- [PostgreSQL setup](2026-09-java-forum-nord-code-examples/README-pgsql.md): running Postgres with Podman or Docker, seed data, reset, troubleshooting
+- [Module README](dj-console-app/README.md): what the demo shows, the GraphQL endpoint, example queries
+- [PostgreSQL setup](dj-console-app/README-pgsql.md): running Postgres with Podman or Docker, seed data, reset, troubleshooting
 - Package documentation under `src/main/java/com/github/fbascheper/dj/console/`:
-  - [`domain/`](2026-09-java-forum-nord-code-examples/src/main/java/com/github/fbascheper/dj/console/domain/README.md): aggregate root rationale
-  - [`domain/session/`](2026-09-java-forum-nord-code-examples/src/main/java/com/github/fbascheper/dj/console/domain/session/README.md): the `MixSession` aggregate
-  - [`domain/library/`](2026-09-java-forum-nord-code-examples/src/main/java/com/github/fbascheper/dj/console/domain/library/README.md): music library reference catalog
-  - [`domain/event/`](2026-09-java-forum-nord-code-examples/src/main/java/com/github/fbascheper/dj/console/domain/event/README.md): the sealed `CrowdEvent` hierarchy
-  - [`infrastructure/`](2026-09-java-forum-nord-code-examples/src/main/java/com/github/fbascheper/dj/console/infrastructure/README.md): secondary adapters and JSONB persistence
-  - [`service/`](2026-09-java-forum-nord-code-examples/src/main/java/com/github/fbascheper/dj/console/service/README.md): application service and exceptions
+  - [`domain/`](dj-console-app/src/main/java/com/github/fbascheper/dj/console/domain/README.md): aggregate root rationale
+  - [`domain/session/`](dj-console-app/src/main/java/com/github/fbascheper/dj/console/domain/session/README.md): the `MixSession` aggregate
+  - [`domain/library/`](dj-console-app/src/main/java/com/github/fbascheper/dj/console/domain/library/README.md): music library reference catalog
+  - [`domain/event/`](dj-console-app/src/main/java/com/github/fbascheper/dj/console/domain/event/README.md): the sealed `CrowdEvent` hierarchy
+  - [`infrastructure/`](dj-console-app/src/main/java/com/github/fbascheper/dj/console/infrastructure/README.md): secondary adapters and JSONB persistence
+  - [`service/`](dj-console-app/src/main/java/com/github/fbascheper/dj/console/service/README.md): application service and exceptions
 
 ## Quick start
 
@@ -52,7 +52,7 @@ podman run --name dj-console-postgres \
 mvn clean verify
 
 # 3. Run the API, then open http://localhost:8080/graphiql
-cd 2026-09-java-forum-nord-code-examples && mvn spring-boot:run
+cd dj-console-app && mvn spring-boot:run
 ```
 
 Run mutation testing with `mvn -Ppitest test`.

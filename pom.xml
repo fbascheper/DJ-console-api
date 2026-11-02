@@ -187,7 +187,7 @@
     </build>
 
     <modules>
-        <module>2026-09-java-forum-nord-code-examples</module>
+        <module>dj-console-app</module>
     </modules>
 
 
