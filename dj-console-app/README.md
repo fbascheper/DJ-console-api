@@ -1,8 +1,7 @@
 # DJ Console API
 
-Java 26 + Spring Boot 4 + Spring GraphQL demo for **Java Forum Nord 2026**
-(22 September 2026, Medizinische Hochschule Hannover).
-Talk: _From “Effective Java” to Java 25 and more_.
+Java 27 + Spring Boot 4 + Spring GraphQL demo for **W-JAX 2026** (3 November 2026).
+Talk: _Effective Java, revisited for Java 25 +_.
 
 ## What this demo shows
 

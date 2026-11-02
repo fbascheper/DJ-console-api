@@ -5,36 +5,36 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.fbascheper</groupId>
-    <artifactId>java-forum-nord-presentations-parent</artifactId>
+    <artifactId>dj-console-parent</artifactId>
     <packaging>pom</packaging>
-    <version>2026.09-SNAPSHOT</version>
-    <name>java-forum-nord-presentations-parent</name>
+    <version>2026.11-SNAPSHOT</version>
+    <name>dj-console-parent</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <java.version>26</java.version>
+        <java.version>27</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.parameters>true</maven.compiler.parameters>
 
-        <spring-boot.version>4.1.1</spring-boot.version>
+        <spring-boot.version>4.1.2</spring-boot.version>
 
         <javamoney-moneta.version>1.4.5</javamoney-moneta.version>
         <junit-jupiter.version>6.0.3</junit-jupiter.version>
         <assertj.version>3.27.7</assertj.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <org.eclipse.yasson.version>3.0.5</org.eclipse.yasson.version>
-        <pitest-maven.version>1.30.0</pitest-maven.version>
+        <pitest-maven.version>1.30.1</pitest-maven.version>
         <pitest-junit5-plugin.version>1.2.3</pitest-junit5-plugin.version>
         <projectlombok.version>1.18.48</projectlombok.version>
-        <slf4j.version>2.0.18</slf4j.version>
+        <slf4j.version>2.0.20</slf4j.version>
         <logback.version>1.5.38</logback.version>
-        <postgresql.version>42.7.13</postgresql.version>
+        <postgresql.version>42.7.14</postgresql.version>
         <equalsverifier.version>4.5.2</equalsverifier.version>
         <jakarta-el.version>4.0.2</jakarta-el.version>
-        <archunit.version>1.5.0</archunit.version>
+        <archunit.version>1.5.1</archunit.version>
     </properties>
 
     <dependencyManagement>
@@ -134,7 +134,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.5.6</version>
+                    <version>3.6.1</version>
                 </plugin>
 
                 <plugin>
@@ -187,7 +187,7 @@
     </build>
 
     <modules>
-        <module>2026-09-java-forum-nord-code-examples</module>
+        <module>dj-console-app</module>
     </modules>
 
 
