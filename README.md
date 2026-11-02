@@ -1,6 +1,6 @@
-# From "Effective Java" to Java 25 and more — code examples
+# Effective Java, revisited for Java 25 + — code examples
 
-Source code for the talk **_From "Effective Java" to Java 25 and more — A Fresh Take on the Java Classic_**
+Source code for the talk **_Effective Java, revisited for Java 25 + — A Fresh Take on the Java Classic_**
 by Frederieke Scheper, W-JAX, 3 November 2026.
 
 *Effective Java* (3rd edition, 2018) has a Java 9 baseline. Since then Java has shipped 17 releases
